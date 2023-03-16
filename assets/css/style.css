@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header */
+
 header{
     display: flex;
     align-items: center;
@@ -41,6 +50,8 @@ span {
     width: 25%;
 }
 
+/*navigation bar*/
+
 .navigation{
     display: flex;
     align-items: center;
@@ -68,3 +79,27 @@ span {
     color: #fff;
     transition: background-color 0,3s ease;
 }
+
+/* Homepage, hero-image and text */
+
+.homepage{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image{
+    background-image: url(../css/images/63561bacac8745eaae9320dae3a706b3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    background: darkorange;
+
+}
+
+
+
