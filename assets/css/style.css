@@ -82,12 +82,8 @@ span {
 
 /* Homepage, hero-image and text */
 
-.homepage{
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
+
+
 
 .hero-image{
     background-image: url(../css/images/63561bacac8745eaae9320dae3a706b3.jpg);
@@ -96,10 +92,28 @@ span {
     height: 100vh;
 }
 
-.container{
-    background: darkorange;
-
+h1{
+    font-size: 40px;
+    line-height: 32px;
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
 }
 
+p{
+font-size: 30px;
+line-height: 30px;
+color: rgb(2, 2, 43);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-
+main{
+    width: 100%;
+    background-image: url(../css/images/63561bacac8745eaae9320dae3a706b3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
