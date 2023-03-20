@@ -147,7 +147,7 @@ section {
 }
 
 
-.wrapper, .wrapper-two {
+.wrapper {
     max-width: 50rem;
     margin-inline: auto;
 }
@@ -157,8 +157,36 @@ h2 {
 }
 
 
-.locations, .day-carers {
+.locations {
     position: relative;
+    background-image: url(../css/images/polynesia-3021072_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.locations::after {
+    content: '';
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    position: absolute;
+    inset: 0;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+
+/* second section about page */
+
+.wrapper-two {
+    max-width: 50rem;
+    margin-inline: auto;
+}
+
+
+
+.day-carers {
+    position: relative;
+    background-image: url(../css/images/mother-1171569_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
 }
 
 .day-carers::after {
@@ -170,16 +198,9 @@ h2 {
     z-index: -1;
 }
 
-/* second section about page */
 
-.locations::after {
-    content: '';
-    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
-    position: absolute;
-    inset: 0;
-    transform: skewY(-5deg);
-    z-index: -1;
-}
+
+/* third and last section */
 
 .wrapper-three {
     max-width: 50rem;
@@ -188,6 +209,9 @@ h2 {
 
 .activities {
     position: relative;
+    background-image: url(../css/images/water-fight-442257_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
 }
 
 .activities::after {
