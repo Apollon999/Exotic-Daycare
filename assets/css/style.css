@@ -139,3 +139,29 @@ footer {
     color: darkblue;
 
 }
+
+/* about page */
+
+
+.wrapper {
+    max-width: 50rem;
+    margin-inline: auto;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+
+.locations {
+    position: relative;
+}
+
+.locations::after {
+    content: '';
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    position: absolute;
+    inset: 0;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
