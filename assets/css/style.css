@@ -142,8 +142,12 @@ footer {
 
 /* about page */
 
+section {
+    padding-bottom: 50px;
+}
 
-.wrapper {
+
+.wrapper, .wrapper-two {
     max-width: 50rem;
     margin-inline: auto;
 }
@@ -153,11 +157,40 @@ h2 {
 }
 
 
-.locations {
+.locations, .day-carers {
     position: relative;
 }
 
+.day-carers::after {
+    content: '';
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    position: absolute;
+    inset: 0;
+    transform: skewY(5deg);
+    z-index: -1;
+}
+
+/* second section about page */
+
 .locations::after {
+    content: '';
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    position: absolute;
+    inset: 0;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+
+.wrapper-three {
+    max-width: 50rem;
+    margin-inline: auto;
+}
+
+.activities {
+    position: relative;
+}
+
+.activities::after {
     content: '';
     background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
     position: absolute;
