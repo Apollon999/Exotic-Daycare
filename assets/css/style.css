@@ -3,7 +3,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    
 }
 
 /* Header */
@@ -53,7 +52,6 @@ span {
 
 /*navigation bar*/
 
-
 .navigation a{
     display: block;
     padding: 8px 16px;
@@ -64,14 +62,11 @@ span {
     font-size: 14px;
     font-weight: bold;
     margin-right: 10px;
-    
 }
 
 .navigation a:last-child{
     margin-right: 0;
-    
 }
-
 
 .navigation a:hover{
     background-color: #333;
@@ -79,15 +74,9 @@ span {
     transition: background-color 0,3s ease;
 }
 
-
-
 /* Homepage, hero-image and text */
 
-
-
-
 .hero-image{
-    background-image: url(../css/images/63561bacac8745eaae9320dae3a706b3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -101,16 +90,16 @@ h1{
     text-transform: uppercase;
 }
 
-p{
-font-size: 30px;
-line-height: 30px;
-color: rgb(2, 2, 43);
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+p{    
+    font-size: 30px;
+    line-height: 30px;
+    color: rgb(2, 2, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main{
     width: 100%;
-    background-image: url(../css/images/63561bacac8745eaae9320dae3a706b3.jpg);
+    background-image: url(../images/beach-home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -138,7 +127,6 @@ footer {
     margin: 1%;
     padding: 5%;
     color: darkblue;
-
 }
 
 /* about page */
@@ -151,18 +139,15 @@ section {
     min-height: 100vh
 }
 
-
 .wrapper {
     max-width: 50rem;
     margin: 150px auto;
     width: 100%;
 }
 
-
 h2 {
     font-size: 300%;
 }
-
 
 .locations {
     position: relative;
@@ -179,19 +164,14 @@ h2 {
 
 /* second section about page */
 
-
 .wrapper-two {
     max-width: 50rem;
     margin: 150px auto;
     width: 100%;
 }
 
-
-
-
 .day-carers {
     position: relative;
-    
 }
 
 .day-carers::after {
@@ -203,9 +183,7 @@ h2 {
     z-index: -1;
 }
 
-
-
-/* third and last section */
+/* third section about page */
 
 .wrapper-three {
     max-width: 50rem;
