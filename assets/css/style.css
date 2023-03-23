@@ -292,8 +292,55 @@ img {
       margin-right: 0;
     }
   }
+
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: pink;
+    
+  }
+
+  .signup-form {
+    margin-top: 100px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .language {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 500px;
+  }
+
+  .language label{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .destination {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    width: 500px;
+  }
+   
+  .destination label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-button {
+    float: right;
+    font-size: x-large;
+    background-color: lightseagreen;
+  }
+
   
   
-  
+ }
+    
   
   
