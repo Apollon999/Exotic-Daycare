@@ -44,6 +44,7 @@ span {
     font-family: carter one;
     font-size: 45px;
     color: darkblue;
+    max-width: 100%;
 }
 
 .header-section.blue-end{
@@ -219,10 +220,6 @@ img {
     header {
       height: 70px;
     }
-
-    .logo {
-        margin-top: 170px
-    }
     
     .header-section {
       font-size: 20px;
@@ -293,26 +290,29 @@ img {
     }
   }
 
+  /* sign-up page */
+
   .form-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: pink;
+    background-color: darkblue;
+    
     
   }
 
   .signup-form {
     margin-top: 100px;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: darkblue;
+    background-color: rgba(243, 176, 6, 0.803);
     display: flex;
     flex-direction: column;
     width: 500px;
   }
 
   .language {
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: darkblue;
+    background-color: rgba(243, 176, 6, 0.803);
     width: 500px;
   }
 
@@ -322,8 +322,8 @@ img {
   }
 
   .destination {
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: darkblue;
+    background-color: rgba(243, 176, 6, 0.803);
     width: 500px;
   }
    
@@ -335,12 +335,34 @@ img {
   .submit-button {
     float: right;
     font-size: x-large;
-    background-color: lightseagreen;
+    background-color: #fff;
   }
 
+  h2 {
+    font-size: 35px;
+  }
+
+  @media (max-width: 768px) {
+    .signup-form,
+    .language,
+    .destination {
+      width: 100%;
+    }
+  }
+  
+  /* styles for screens with a maximum width of 500px */
+  @media (max-width: 500px) {
+    h2 {
+      font-size: 25px;
+    }
+    .submit-button {
+      display: flex;
+      justify-self: center;
+    }
+  }
   
   
- }
+ 
     
   
   
