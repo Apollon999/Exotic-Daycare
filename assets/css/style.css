@@ -310,21 +310,9 @@ img {
     width: 500px;
   }
 
-  .language {
-    color: darkblue;
-    background-color: rgba(243, 176, 6, 0.803);
-    width: 500px;
-  }
-
   .language label{
     display: flex;
     flex-direction: column;
-  }
-
-  .destination {
-    color: darkblue;
-    background-color: rgba(243, 176, 6, 0.803);
-    width: 500px;
   }
    
   .destination label {
@@ -334,21 +322,14 @@ img {
 
   .submit-button {
     float: right;
-    font-size: x-large;
-    background-color: #fff;
+    font-size: 20px;
   }
 
   h2 {
     font-size: 35px;
   }
 
-  @media (max-width: 768px) {
-    .signup-form,
-    .language,
-    .destination {
-      width: 100%;
-    }
-  }
+  
   
   /* styles for screens with a maximum width of 500px */
   @media (max-width: 500px) {

@@ -30,7 +30,7 @@
             <div class="navigation">
                 <a href="index.html" aria-label="homepage">Home</a>
                 <a href="about.html" aria-label="about">About</a>
-                <a href="signup.html" aria-label="signup"class="active" >Sign Up</a> 
+                <a href="signup.html" aria-label="signup"class="active">Sign Up</a> 
             </div>
         </div>
     </header>
@@ -48,8 +48,8 @@
             
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email_address"required>
-        </form>
-        <form class="language" method="post">
+
+            <div class="language">
             <h2>Choose language <i class="fa-solid fa-globe"></i></h2>
             <label for="french">French</label>
             <input type="radio" id="french" name="language" value="french"required>
@@ -59,9 +59,9 @@
             <input type="radio" id="scandinavian" name="language" value="scandinavian">
             <label for="english">English</label>
             <input type="radio" id="english"name="language"value="english">
-            
+            </div>
         
-             
+             <div class="destination"></div>
             <h2>Choose destination <i class="fa-solid fa-plane"></i></h2>
             <label for="mallorca">Mallorca</label>
             <input type="radio" id="mallorca" name="destination" value="mallorca"required>
@@ -73,11 +73,12 @@
             <input type="radio" id="split" name="destination" value="split">
             <label for="mykonos">Mykonos</label>
             <input type="radio" id="mykonos" name="destination" value="mykonos">
-
-        <a href="thank-you.html">
-            <button class="submit-button">SUBMIT</button>
-        </a>
-    </form>
+            </div>
+        <div class="submit-button">
+            <a href="thank-you.html">
+                <button class="submit-button">SUBMIT</button>
+            </a>
+        </div>     
     </section>
     
     
