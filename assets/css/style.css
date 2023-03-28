@@ -42,7 +42,7 @@ header{
 
 span {
     font-family: carter one;
-    font-size: 45px;
+    font-size: 40px;
     color: darkblue;
     max-width: 100%;
 }
@@ -51,6 +51,7 @@ span {
     background-color: darkblue;
     width: 25%;
 }
+
 
 /*navigation bar*/
 
@@ -287,6 +288,10 @@ img {
     img {
       max-width: 100%;
       margin-right: 0;
+    }
+
+    span {
+      font-size: 20px;
     }
   }
 
