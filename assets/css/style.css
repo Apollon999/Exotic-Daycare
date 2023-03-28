@@ -219,7 +219,7 @@ img {
 
 @media (max-width: 768px) {
     header {
-      height: 70px;
+      height: 75px;
     }
     
     .header-section {
@@ -345,7 +345,25 @@ img {
       display: flex;
       justify-self: center;
     }
-  }
+  
+    .form-section {
+      flex-direction: column;
+    }
+    
+    .signup-form {
+      width: 90%;
+      margin: 50px auto;
+    }
+    
+    .submit-button {
+      font-size: 16px;
+    }
+    
+    h2 {
+      font-size: 28px;
+    }
+  }  
+
   
   
  
