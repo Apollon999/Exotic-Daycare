@@ -1,0 +1,56 @@
+# Tiny-Travelers
+A website for Exotic Daycare, kids daycare while on vacation
+# Exotic-Daycare
+A website for Exotic Daycare, kids daycare while on vacation
+# The purpose with this project
+This fictional website is made and targeted for families with young kids. Instead of stop travelling wich is many peoples oassion, Exotic Daycare offers a solution by taking care of the kids parts othe vacation.
+The site is very simple and easy to navigate around and although it does not contain loads of information, everything you need to know is right on the page.
+
+To use the website, simply navigate to the following URL:
+
+https://8000-apollon999-exoticdaycar-s41ly5z9ag2.ws-eu92.gitpod.io/index.html
+
+# Table of contents
+
+# User Demographic
+
+this page is for:
+
+Parents or guardians traveling with young children who require childcare services
+
+Families seeking unique vacation experiences that include childcare
+
+Event organizers who require on-site childcare services
+
+Private individuals who require a nanny for their children while traveling
+
+Travelers with a higher income or disposable income, as childcare services in exotic locations may be more expensive than traditional daycare services
+
+Users goal:
+
+To schedule childcare services for their children during their travels or events.
+
+Learning more about the specific locations where the services are offered, as well as the qualifications and experience of the caregivers
+
+ensuring that the childcare services are safe, reliable, and trustworthy.
+
+# Requirements
+A static responsive website that incorporates the technologies I have learned so far that contains some advanced functionality. The development process needs to be well documented through a version controls system such as GitHub.
+
+# Features
+
+Exotic Daycare is a three page website wich contains:
+A home page with a hero image and short but important information about what the site is all about.
+
+Another page named "about" that diggs deeper into the points of information with a few fitting images and cool background.
+
+A sign up page wich gives users the chance to show interest and signing up.
+
+A Heading with a simple logo and a navigation bar columned to the right wich takes you wherever you to all existing pages within one click.
+
+A footer with links to the socials of Exotic Daycare
+
+# Technologies Used:
+
+HTML
+CSS
