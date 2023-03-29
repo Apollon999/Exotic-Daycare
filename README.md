@@ -10,7 +10,7 @@ The site is very simple and easy to navigate around and although it does not con
 
 To use the website, simply navigate to the following URL:
 
-https://github.com/Apollon999/Tiny-Travelers
+https://apollon999.github.io/Tiny-Travelers/index.html
 
 # Table of contents
 
