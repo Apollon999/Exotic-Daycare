@@ -1,7 +1,5 @@
 # Tiny-Travelers
 A website for Exotic Daycare, kids daycare while on vacation
-# Tiny-Travelers
-A website for Exotic Daycare, kids daycare while on vacation
 
 ![Skärmbild 2023-03-29 164608](https://user-images.githubusercontent.com/118939854/228576859-cf4b4423-0a9c-481a-8af0-7bab91cffa7a.png)
 
@@ -12,7 +10,7 @@ The site is very simple and easy to navigate around and although it does not con
 
 To use the website, simply navigate to the following URL:
 
-https://8000-apollon999-exoticdaycar-s41ly5z9ag2.ws-eu92.gitpod.io/index.html
+https://apollon999-tinytraveler-saej7s1gpvg.ws-eu93.gitpod.io/
 
 # Table of contents
 
@@ -93,7 +91,7 @@ Github/Gitpod
 
 As my first project it clearly reflects many parts that i have learned so for in the course, The footer is taken straight out of the love running project and many ideas are inspired from the practices.
 
-My goal has been to make a playful and fun website with many coulors yet matching and suiting designs.
+My goal has been to make a playful and fun website with many colours yet matching and suiting designs.
 
 Tiny Travellers is a website made of three pages wich all can be navigated to from the navigation bar in every page. The bar is a column in a round fun form.
 
@@ -143,7 +141,7 @@ The procedure for deployment followed the "Creating your site" steps provided in
 
 3.At the top of the repository, select Settings from the menu items.
 
-4.Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+4.Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Deploy from a branch.”
 
 5.At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
 

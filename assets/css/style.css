@@ -295,7 +295,8 @@ h2 {
     p {
       font-size: 24px;
       line-height: 24px;
-      padding: 20px;
+      padding: 30px;
+      box-sizing: border-box;
     }
     
     main {
@@ -330,7 +331,7 @@ h2 {
     }
 
     span {
-      font-size: 18px;
+      font-size: 14px;
     }
   }
    /* styles for screens with a maximum width of 500px */
