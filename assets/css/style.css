@@ -253,7 +253,9 @@ h2 {
   font-size: 35px;
 }
 
-@media (max-width: 768px) {
+/* styles for screens smaller than 767px */
+
+@media (max-width: 767px) {
     header {
       height: 75px;
     }
