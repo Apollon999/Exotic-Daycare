@@ -52,7 +52,6 @@ span {
     width: 25%;
 }
 
-
 /*navigation bar*/
 
 .navigation a{
@@ -215,6 +214,45 @@ img {
     margin-right: 15px;
 }
 
+ /* sign-up page */
+
+ .form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: darkblue;    
+}
+
+.signup-form {
+  margin-top: 100px;
+  color: darkblue;
+  background-color: rgba(243, 176, 6, 0.803);
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.language label{
+  display: flex;
+  flex-direction: column;
+}
+ 
+.destination label {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  float: right;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
 @media (max-width: 768px) {
     header {
       height: 75px;
@@ -292,46 +330,6 @@ img {
       font-size: 20px;
     }
   }
-
-  /* sign-up page */
-
-  .form-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: darkblue;    
-  }
-
-  .signup-form {
-    margin-top: 100px;
-    color: darkblue;
-    background-color: rgba(243, 176, 6, 0.803);
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-
-  .language label{
-    display: flex;
-    flex-direction: column;
-  }
-   
-  .destination label {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .submit-button {
-    float: right;
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 35px;
-  }
-
    /* styles for screens with a maximum width of 500px */
   @media (max-width: 500px) {
     h2 {
