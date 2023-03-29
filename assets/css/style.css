@@ -42,7 +42,7 @@ header{
 
 span {
     font-family: carter one;
-    font-size: 40px;
+    font-size: 30px;
     color: darkblue;
     max-width: 100%;
 }
@@ -295,6 +295,7 @@ h2 {
     p {
       font-size: 24px;
       line-height: 24px;
+      padding: 20px;
     }
     
     main {
@@ -329,7 +330,7 @@ h2 {
     }
 
     span {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
    /* styles for screens with a maximum width of 500px */
